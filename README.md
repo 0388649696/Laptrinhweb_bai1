@@ -23,6 +23,7 @@ thêm hàm giải phương trình bậc 3 dạng đặc biệt (không phải d�
     delta = 0 → nghiệm thực bội.
     delta < 0 → 3 nghiệm thực.
 Trả về chuỗi liệt kê nghiệm.
+
 5. Biên dịch chương trình: lệnh "C:\Windows\Microsoft.NET\Framework\v2.0.50727\csc.exe" /target:library /out:UtilityDLL.dll Class1.cs
 
 
