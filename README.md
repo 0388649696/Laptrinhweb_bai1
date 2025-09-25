@@ -41,5 +41,12 @@ Console app, bắt buộc sử dụng .NET Framework 2.0, sử dụng được D
 
 
 ## Ph.3:
+Windows Form Application, bắt buộc sử dụng .NET Framework 2.0**, sử dụng được DLL đa năng trên, kéo các control vào để có thể lấy đc input, gọi DLL truyền input để lấy đc kq, hiển thị kq ra window form, phải có dấu án cá nhân; keyword: c# window Desktop => Windows Form Application (.NET Framework), biên dịch ra EXE
 
+1. tạo New Project với Templates Windows Forms App (.NET Framework 2.0)
+<img width="788" height="291" alt="image" src="https://github.com/user-attachments/assets/7a091922-68f3-4854-9fd5-18654c06f419" />
 
+2. Project mới e tên là: WinFormApp > Form1.cs
+3. 
+
+## Ph.4:
