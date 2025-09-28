@@ -47,6 +47,14 @@ Windows Form Application, bắt buộc sử dụng .NET Framework 2.0**, sử d�
 <img width="788" height="291" alt="image" src="https://github.com/user-attachments/assets/7a091922-68f3-4854-9fd5-18654c06f419" />
 
 2. Project mới e tên là: WinFormApp > Form1.cs
-3. 
 
 ## Ph.4:
+ ASP.NET Web Application (.NET Framework), bắt buộc sử dụng .NET Framework 2.0
+ 1. tạo New Project với  ASP.NET Web Application (.NET Framework 2.0)  tên là MyWebApp
+ <img width="456" height="539" alt="image" src="https://github.com/user-attachments/assets/c26d7a40-aba8-4bb6-8d21-b811cf901728" />
+
+KẾT QỦA:
+PHƯƠNG TRÌNH BẬC 2
+<img width="750" height="914" alt="image" src="https://github.com/user-attachments/assets/f809e28b-af63-4dd5-a47e-f05f18cdfd15" />
+PHƯƠNG TRÌNH BẬC 3
+<img width="768" height="532" alt="image" src="https://github.com/user-attachments/assets/8ed38745-f54e-42c5-981e-fdf144a9bbc0" />
