@@ -53,7 +53,7 @@ Windows Form Application, bắt buộc sử dụng .NET Framework 2.0**, sử d�
  1. tạo New Project với  ASP.NET Web Application (.NET Framework 2.0)  tên là MyWebApp
  <img width="456" height="539" alt="image" src="https://github.com/user-attachments/assets/c26d7a40-aba8-4bb6-8d21-b811cf901728" />
 
-KẾT QỦA:
+### KẾT QỦA:
 PHƯƠNG TRÌNH BẬC 2
 <img width="750" height="914" alt="image" src="https://github.com/user-attachments/assets/f809e28b-af63-4dd5-a47e-f05f18cdfd15" />
 PHƯƠNG TRÌNH BẬC 3
