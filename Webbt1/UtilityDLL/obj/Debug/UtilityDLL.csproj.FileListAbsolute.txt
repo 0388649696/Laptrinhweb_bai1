@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\Webbt1\UtilityDLL\bin\Debug\UtilityDLL.dll
+C:\Users\Dell\source\repos\Webbt1\UtilityDLL\bin\Debug\UtilityDLL.pdb
+C:\Users\Dell\source\repos\Webbt1\UtilityDLL\obj\Debug\UtilityDLL.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Webbt1\UtilityDLL\obj\Debug\UtilityDLL.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Webbt1\UtilityDLL\obj\Debug\UtilityDLL.dll
+C:\Users\Dell\source\repos\Webbt1\UtilityDLL\obj\Debug\UtilityDLL.pdb

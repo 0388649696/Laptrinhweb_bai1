@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Giải Phương Trình (Web) - Dấu ấn Cá nhân</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input, button {
+            margin: 5px 0;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e9e9e9;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+
+        .equation-section {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Giải Phương Trình Online (.NET 2.0)</h1>
+
+        <div class="equation-section">
+            <h2>PT Bậc 2 (ax² + bx + c = 0)</h2>
+            <label>A:</label><input type="text" id="a2" value="1">
+            <label>B:</label><input type="text" id="b2" value="-3">
+            <label>C:</label><input type="text" id="c2" value="2">
+            <button onclick="solveEquation(2)">Giải Bậc 2</button>
+        </div>
+
+        <div class="equation-section">
+            <h2>PT Bậc 3 Đơn Giản (x³ + bx + c = 0)</h2>
+            <label>B:</label><input type="text" id="b3" value="-7">
+            <label>C:</label><input type="text" id="c3" value="6">
+            <button onclick="solveEquation(3)">Giải Bậc 3</button>
+        </div>
+
+        <pre id="result">Kết quả sẽ hiển thị ở đây.</pre>
+    </div>
+
+    <script>
+        function solveEquation(degree) {
+            let data = {};
+            if (degree === 2) {
+                data = {
+                    Degree: 2,
+                    A: parseFloat(document.getElementById('a2').value) || 0,
+                    B: parseFloat(document.getElementById('b2').value) || 0,
+                    C: parseFloat(document.getElementById('c2').value) || 0,
+                    // Dấu ấn cá nhân được mã hóa qua trường D
+                    D: 0 // Dùng D=0
+                };
+            } else if (degree === 3) {
+                data = {
+                    Degree: 3,
+                    A: 1, // Luôn là 1 cho dạng đơn giản
+                    B: parseFloat(document.getElementById('b3').value) || 0,
+                    C: parseFloat(document.getElementById('c3').value) || 0,
+                    D: 0 // Dùng D=0
+                };
+            }
+
+            // Gửi yêu cầu lên backend
+            fetch('api.aspx', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => response.json())
+                .then(result => {
+                    const resultDiv = document.getElementById('result');
+                    if (result.Success) {
+                        // Hiển thị trực tiếp thông báo từ Server mà không thêm prefix
+                        // Sử dụng replace để loại bỏ các tag [Dấu ấn Web] khỏi hiển thị
+                        let cleanMessage = result.Message.replace(/\[Dấu ấn Web\]: /g, '').trim();
+                        cleanMessage = cleanMessage.replace(/\[Dấu ấn Cá nhân: A=0, chuyển sang Bậc 1\]: /g, 'PT Bậc 1: ').trim();
+
+                        resultDiv.textContent = 'Trạng thái: THÀNH CÔNG\n\n' + cleanMessage;
+                    } else {
+                        resultDiv.textContent = 'Trạng thái: LỖI\n\n' + result.Message;
+                    }
+                })
+            .catch(error => {
+                document.getElementById('result').textContent = 'Lỗi kết nối hoặc xử lý phía Client/Server.';
+                //console.error("Fetch Error:", error);
+            });
+        }
+    </script>
+</body>
+</html>

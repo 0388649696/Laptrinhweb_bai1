@@ -1,0 +1,10 @@
+C:\Users\Dell\source\repos\Webbt1\MyWebApp\bin\MyWebApp.dll.config
+C:\Users\Dell\source\repos\Webbt1\MyWebApp\bin\MyWebApp.dll
+C:\Users\Dell\source\repos\Webbt1\MyWebApp\bin\MyWebApp.pdb
+C:\Users\Dell\source\repos\Webbt1\MyWebApp\bin\UtilityDLL.dll
+C:\Users\Dell\source\repos\Webbt1\MyWebApp\bin\UtilityDLL.pdb
+C:\Users\Dell\source\repos\Webbt1\MyWebApp\obj\Debug\MyWebApp.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Webbt1\MyWebApp\obj\Debug\MyWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Webbt1\MyWebApp\obj\Debug\MyWebApp.csproj.Up2Date
+C:\Users\Dell\source\repos\Webbt1\MyWebApp\obj\Debug\MyWebApp.dll
+C:\Users\Dell\source\repos\Webbt1\MyWebApp\obj\Debug\MyWebApp.pdb

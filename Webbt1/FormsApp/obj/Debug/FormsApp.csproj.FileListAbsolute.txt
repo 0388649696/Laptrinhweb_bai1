@@ -1,0 +1,12 @@
+C:\Users\Dell\source\repos\Webbt1\FormsApp\bin\Debug\FormsApp.exe
+C:\Users\Dell\source\repos\Webbt1\FormsApp\bin\Debug\FormsApp.pdb
+C:\Users\Dell\source\repos\Webbt1\FormsApp\bin\Debug\UtilityDLL.dll
+C:\Users\Dell\source\repos\Webbt1\FormsApp\bin\Debug\UtilityDLL.pdb
+C:\Users\Dell\source\repos\Webbt1\FormsApp\obj\Debug\FormsApp.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Webbt1\FormsApp\obj\Debug\FormsApp.Form1.resources
+C:\Users\Dell\source\repos\Webbt1\FormsApp\obj\Debug\FormsApp.Properties.Resources.resources
+C:\Users\Dell\source\repos\Webbt1\FormsApp\obj\Debug\FormsApp.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\Webbt1\FormsApp\obj\Debug\FormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Webbt1\FormsApp\obj\Debug\FormsApp.csproj.Up2Date
+C:\Users\Dell\source\repos\Webbt1\FormsApp\obj\Debug\FormsApp.exe
+C:\Users\Dell\source\repos\Webbt1\FormsApp\obj\Debug\FormsApp.pdb
